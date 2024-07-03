@@ -174,7 +174,7 @@ body{
     
 }
 
-@media (max-width:800px) {
+@media (max-width:780px) {
     .contact-inputs{
         width: 80vw;
     }
@@ -182,6 +182,12 @@ body{
         display:none;
     }
     
+}
+
+@media (max-width:1400px) {
+    .click ul{
+        grid-template-columns: repeat(4, 2fr);
+    }
 }
 
 
